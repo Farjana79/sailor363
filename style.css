@@ -1,0 +1,107 @@
+/*=============== Common Css start from here ==================*/
+body {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+  }
+
+/*=============== Common Css End from here ===================*/
+
+
+
+
+/* Section Css Start from here  =============================*/
+.content-box-wrapper{
+    background-color: #F1F6FA;
+    border-radius: 10px;
+    padding: 24px 24px 50px 24px;
+}
+
+.list-item {
+    display: -ms-flexbox;
+    display: flex
+}
+
+.list-item>* {
+    padding: 10px
+}
+.list-item:last-child .lists-item-style:after {
+    display: none
+}
+.lists-item-style {
+    border-color: #01aaef;
+}
+
+.lists-item-style:after,
+.lists-item-style:before {
+    content: '';
+    position: absolute;
+    border-color: inherit;
+    border-width: 2.2px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.lists-item-style:after {
+    width: 0;
+    height: auto;
+    top: 25px;
+    bottom: -15px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 0
+}
+
+
+.lists-item-style:after,
+.lists-item-style:before {
+    content: '';
+    position: absolute;
+    border-color: inherit;
+    border-width: 2.2px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #01aaef;
+    
+}
+
+.lists-item-style:after {
+    width: 0;
+    height: auto;
+    top: 25px;
+    bottom: -15px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 0
+}
+.list-content{
+    margin-bottom: 30px;
+}
+.list-content p:first-child{
+    font-weight: 600;
+}
+.list-content p:last-child {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+/* Section Css End  from here  =============================*/
+
+
+
+
+
